@@ -1,0 +1,562 @@
+  <!DOctype html>
+<head>
+     <!-- Define Charset -->
+	<meta charset="utf-8">
+
+    <!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Basic -->
+	<title>New PAN Application Form </title>
+
+<meta name="description" content="pan card service provider. website to apply for new pan card.">
+
+<meta name="keywords" content="pan card online, online pan card, pan card apply, apply pan card online, pan card applicationm apply for pan card">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    
+    <!-- Bootstrap CSS  -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+  
+    <!-- Revolution Banner CSS -->
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+  
+    <!-- Venda CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/style_1.css" media="screen">
+    
+
+
+    <!-- Responsive CSS Styles  -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+    
+    <!-- Css3 Transitions Styles  -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+  
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
+  
+    <!-- Fontello Icons CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" media="screen">
+    <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+    
+    
+    <!-- Venda JS  -->
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.migrate.js"></script>
+    	<script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../../js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.appear.js"></script>
+    <script type="text/javascript" src="../../js/count-to.js"></script>
+    <script type="text/javascript" src="../../js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="../../js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+
+    <link href="../../css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/newformatting.css">
+<link rel="stylesheet" href="css/progressstyle.css">
+<link rel="stylesheet" href="css/payupopup.css">
+
+<script src="ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/1.js"></script> 
+</head>
+<title>PanCard</title>
+<body onload="onloading();">
+
+    <!-- Container -->
+      <div id="container">
+                    
+        <!-- Start Header -->
+       <div class="hidden-header"></div>
+        <!--main form-->
+       
+       <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="msform" action="#" method="Post">
+          <div id="corners">
+          <p style="font-size:12px; text-align: right;"><font color="red"><b>* REQUIRED</b></font></p>
+          <p style="color:#B41200;"><b><u><font size="3.5">APPLICATION FOR NEW PAN CARD </u></b><img src="images/help_icon.png" width="19" height="19" title="Enter All the Details"/></font><font style="font-size:12px" color="red"> (Enter All the Details)</font>
+          </p>
+        </div>
+        <!--select title-->
+<p>1. Full name (Full expanded name to be mentioned as appearing in proof of identity/date of birth/address documnets: initials are not permitted</p>
+
+        <div class="row" width="100%">
+
+            <div class="col-sm-12">
+
+            Full Name </font><font style="font-size:20px; color:#B41200;"><b>*</b></font>
+         <select class="feedback-select1" name="pan_title" id="pan_title" style="width:117px;" required>
+         <option value="">Select Title</option>
+             <option value="1">Shri</option>
+             <option value="2">Smt.</option>
+           <option value="3">Kumari</option>
+           <option value="4">M/s</option>
+         </select>
+             </div>
+             <div class="col-sm-3">
+            <input type="text" class="feedback-input2" name="pan_lastname" id="pan_lastname" placeholder="LastName/Surname" maxlength="25" onblur="nameCard('pan_lastname');" oninput="convertuppercase1('pan_lasttname');"  title="Only Characters" required/>
+          </div>
+          <div class="col-sm-3">
+                <input type="text" class="feedback-input2" name="pan_firstname" id="pan_firstname" maxlength="25" placeholder="First Name"  oninput="convertuppercase1('pan_firstname');" title="Only Characters" onblur="nameCard('pan_firstname')" />
+          </div>
+          <div class="col-sm-3">
+                <input type="text" class="feedback-input2" name="pan_middlename" id="pan_middlename" placeholder="Middle Name" maxlength="25" onblur="nameCard('pan_middlename')" oninput="convertuppercase1('pan_middlename');"  title="Only Characters"/>
+        </div>
+        </div>
+      
+          <!--empty fields-->
+          <div class="row" width="100%">
+              <div class="col-md-12">
+            
+          <p>2. Abbreviations of the above name, as you would like it, to be printed on the PAN card</p>
+          <div class="col-lg-6">
+          <input type="text" class="feedback-input3" name="" id="field1" maxlength="40" oninput="convertuppercase1('pan_middlename');" title="Only Characters">
+          </div>
+          <div class="col-lg-6">
+              <input type="text" class="feedback-input3" name="" id="field2" maxlength="40" oninput="convertuppercase1('pan_middlename');" title="Only Characters">
+              </div>
+            </div>
+            </div>
+
+    <!--empty fields-->
+    <div class="row" width="100%" style="visibility: hidden">
+    </div>
+
+    <!--have you ever known by any other name?-->
+                <div class="row">3. Have you ever known by any other name?</div>
+                        <div class="col-sm-3">
+                         <div class="col-sm-7">
+                            <input type="radio" name="pan_communication" id="yes" value="1" onclick="" checked>Yes
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="radio" name="pan_communication" id="no" value="2" onclick="">No                        </div>
+                        </div>
+    <div class="row">
+    <div class="col-md-12">              
+    Full Name </font><font style="font-size:20px; color:#B41200;"><b>*</b></font> 
+    <select class="feedback-select1" name="pan_title" id="pan_title" style="width:117px;" required>
+         <option value="">Select Title</option>
+             <option value="1">Shri</option>
+             <option value="2">Smt.</option>
+           <option value="3">Kumari</option>
+           <option value="4">M/s</option>
+         </select>
+         </div>
+             <div class="col-sm-3">
+            <input type="text" class="feedback-input2" name="pan_lastname" id="pan_lastname" placeholder="LastName/Surname" maxlength="25" onblur="nameCard('pan_lastname');" oninput="convertuppercase1('pan_lasttname');"  title="Only Characters" required/>
+          </div>
+          <div class="col-sm-3">
+                <input type="text" class="feedback-input2" name="pan_firstname" id="pan_firstname" maxlength="25" placeholder="First Name"  oninput="convertuppercase1('pan_firstname');" title="Only Characters" onblur="nameCard('pan_firstname')" />
+          </div>
+          <div class="col-sm-3">
+                <input type="text" class="feedback-input2" name="pan_middlename" id="pan_middlename" placeholder="Middle Name" maxlength="25" onblur="nameCard('pan_middlename')" oninput="convertuppercase1('pan_middlename');"  title="Only Characters"/>
+        </div>
+    </div>
+    <!--gender-->
+    <div class="row">
+            <div class="row">4. Gender (for indivudual applicants only)</div>
+            <div class="col-sm-4">
+                    <input type="checkbox" name="gender" id="checkbox" onclick="" checked> Male
+                    </div>
+                    <div class="col-sm-4">
+                    <input type="checkbox" name="gender" id="checkbox" onclick="">Female
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" name="gender" id="checkbox" onclick="">Transgender
+                    </div>
+                    </div>
+    <!--  Date of Birth/Incorporation/Agreement/Partnership or Trust Deed/ Formation of Body of individuals or Association of Persons-->
+   <div class="row">5. Date of Birth/Incorporation/Agreement/Partnership or Trust Deed/ Formation of Body of individuals or Association of Persons</div>
+   <div class="row">
+   <div class="col-sm-3">
+        Date Of Birth <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+    <input type="date" name="pan_dob" class="feedback-input2" id="pan_dob" maxlength="10" pattern=".{10,}" placeholder="DD/MM/YYYY" required/>
+          </div>	
+        </div>
+    <!--Details of Parents (applicable only for individual applicants)-->
+          <!--father's name-->
+          <div class="row">
+                <div class="col-sm-3">
+                Father's Name <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+                 </div>
+                 <div class="col-sm-3">
+                     <input type="text" class="feedback-input2" name="pan_fatherfirstname" id="pan_fatherfirstname" placeholder="First Name" maxlength="25" oninput="convertuppercase1('pan_fatherfirstname');"  title="Only Characters" required/>
+                 </div>
+                 <div class="col-sm-3">
+                     <input type="text" class="feedback-input2" name="pan_fathermiddlename" id="pan_fathermiddlename" maxlength="25" placeholder="Middle Name"  oninput="convertuppercase1('pan_fathermiddlename');" title="Only Characters" />
+                 </div>
+                 <div class="col-sm-3">
+                     <input type="text" class="feedback-input2" name="pan_fatherlastname" id="pan_fatherlastname" placeholder="Last Name" maxlength="25" oninput="convertuppercase1('pan_fatherlastname');" title="Only Characters" />
+                 </div>
+                 </div>
+
+        <!--Mother's Name-->
+        <div class="row">
+                <div class="col-sm-3">
+                Mother's Name <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+                 </div>
+                 <div class="col-sm-3">
+                     <input type="text" class="feedback-input2" name="pan_fatherfirstname" id="pan_fatherfirstname" placeholder="First Name" maxlength="25" oninput="convertuppercase1('pan_fatherfirstname');"  title="Only Characters" required/>
+                 </div>
+                 <div class="col-sm-3">
+                     <input type="text" class="feedback-input2" name="pan_fathermiddlename" id="pan_fathermiddlename" maxlength="25" placeholder="Middle Name"  oninput="convertuppercase1('pan_fathermiddlename');" title="Only Characters" />
+                 </div>
+                 <div class="col-sm-3">
+                     <input type="text" class="feedback-input2" name="pan_fatherlastname" id="pan_fatherlastname" placeholder="Last Name" maxlength="25" oninput="convertuppercase1('pan_fatherlastname');" title="Only Characters" />
+                 </div>
+                 </div>
+<!--   Residence Address Start -->			
+	<div id="residence_communication" >
+	<div class="row">
+	<div class="col-sm-12">
+	<p style="color:#B41200"><font size="3">Residence Address</font>
+	</div>
+	</div>	
+	<div class="row">
+	<div class="col-sm-3">
+	House No/ Building/ Village
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_addressline1" maxlength="40" value="" id="pan_addressline1" class="feedback-input2" placeholder="First Line" oninput="convertuppercase1('pan_addressline1');" title="Enter your Flat/Door/Block Number"/>
+	</div>
+	<div class="col-sm-3">
+	Area/ Road/ Street/ P.O.
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_addressline2" maxlength="40" value="" id="pan_addressline2" class="feedback-input2" placeholder="Second Line" oninput="convertuppercase1('pan_addressline2');"/>
+	</div>	
+	</div>
+		
+	<div class="row">
+	<div class="col-sm-3">
+	City/ Town/ District <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_cityname" size="25%" maxlength="25" value="" id="pan_cityname" class="feedback-input2" pattern=".[A-Za-z\s]{2,}" placeholder="City" oninput="convertuppercase1('pan_cityname');" required/>
+	</div>
+	<div class="col-sm-3">
+	State/ Union Territory <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+	</div>
+	<div class="col-sm-3">
+	<input name="pan_state" class="feedback-input2" maxlength="25" value="" id="pan_state" placeholder="State/Union Territory" oninput="convertuppercase1('pan_state');" required>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-sm-3">
+	Pincode/ Zip code <font style="font-size:20px; color:#B41200;"><b> *</b></font>
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_pincode" maxlength="7" value="" pattern="[0-9]+" id="pan_pincode" class="feedback-input2" placeholder="PinCode"  required/>
+	</div>
+	<div class="col-sm-3">
+	Country <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+	</div>
+	<div class="col-sm-3">
+	<select name="pan_country" class="feedback-select2" id="pan_country" onchange="">
+    <option value="">INDIA</option>
+	</select>
+	</div>
+	</div>
+	</div>
+
+<!--   Residence Address End -->		
+
+<!-- Office Address Start -->			
+<div id="residence_communication" >
+        <div class="row">
+        <div class="col-sm-12">
+        <p style="color:#B41200"><font size="3">Office Address</font>
+        </div>
+        </div>	
+        <div class="row">
+        <div class="col-sm-3">
+        House No/ Building/ Village
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_addressline1" maxlength="40" value="" id="pan_addressline1" class="feedback-input2" placeholder="First Line" oninput="convertuppercase1('pan_addressline1');" title="Enter your Flat/Door/Block Number"/>
+        </div>
+        <div class="col-sm-3">
+        Area/ Road/ Street/ P.O.
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_addressline2" maxlength="40" value="" id="pan_addressline2" class="feedback-input2" placeholder="Second Line" oninput="convertuppercase1('pan_addressline2');"/>
+        </div>	
+        </div>
+            
+        <div class="row">
+        <div class="col-sm-3">
+        City/ Town/ District <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_cityname" size="25%" maxlength="25" value="" id="pan_cityname" class="feedback-input2" pattern=".[A-Za-z\s]{2,}" placeholder="City" oninput="convertuppercase1('pan_cityname');" required/>
+        </div>
+        <div class="col-sm-3">
+        State/ Union Territory <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input name="pan_state" class="feedback-input2" maxlength="25" value="" id="pan_state" placeholder="State/Union Territory" oninput="convertuppercase1('pan_state');" required>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-3">
+        Pincode/ Zip code <font style="font-size:20px; color:#B41200;"><b> *</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_pincode" maxlength="7" value="" pattern="[0-9]+" id="pan_pincode" class="feedback-input2" placeholder="PinCode"  required/>
+        </div>
+        <div class="col-sm-3">
+        Country <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input value="country" class="country" name="country" placeholder="Country" oninput="convertuppercase1('pan_state');" required>
+        </select>
+        </div>
+        </div>
+        </div><br>
+
+        <!--8.address for communication-->
+    <div class="row">
+        <div class="col-md-6">8. Address for communication</div><div class="col-md-3"><input type="radio" name="click" oninput="convertuppercase1('pan_state');" required>Residence</div><div class="col-md-3"><input type="radio" name="click">Office</div>
+    </div><br>
+    <!-- 9.telephone and email details-->
+    <div class="row">
+            <div class="col-md-6">9. Telephone Number & Email Details</div>
+        <div class="col-md-4">Country Code &nbsp;<input type="varchar" class="number" size="4" oninput="convertuppercase1('pan_state');" required></div><br/>
+                    <div class="col-md-6">Area/STD Code &nbsp;<input type="varchar" class="number" size="4" oninput="convertuppercase1('pan_state');"></div><br/>
+                    <div class="col-md-6">Phone No &nbsp;<input type="tel" class="telephone" size="20"></div><br/>
+                <div class="col-md-6">Email &nbsp;<input type="email" name="email" class="email" size="20" oninput="convertuppercase1('pan_state');" required ></div><br/>
+    </div><br>
+<!--option value-->
+<div class="row">
+    <div class="col-md-4">10. Status Of Applicant</div>
+<select class="status" oninput="convertuppercase1('pan_state');" required>
+    <option value="">Select Status</option>
+    <option value="1">Individual</option>
+    <option value="2">Trusts</option>
+    <option value="3">Hindu Undivided Family</option>
+    <option value="4">Body Of Individuals</option>
+    <option value="5">Company</option>
+    <option value="6">Local Authority</option>
+    <option value="7">Partnership Firm</option>
+    <option value="8">Artificial Juridical Persons</option>
+    <option value="9">Government</option>
+    <option value=10>Association Of Persons</option>
+    <option value="11">Limited Liability Partnership</option>
+</select>
+</div>
+<br>
+
+<!--11.regisration number-->
+<div class="row">
+    <div class="col-md-6">11 Registration Number (for company, firms, LLPs etc.)</div>
+    <input type ="varchar" class="registration_number" size="30" oninput="convertuppercase1('pan_state');" required>
+</div>
+<br>
+<!--12 In case of a person, who is required to quote...-->
+<div class="row">
+    <div class="col-md-12">12 In case of a person, who is required to quote 
+    Aadhaar number or the Enrolment ID of Aadhaar application form as per section 139 AA</div>
+    <div class="col-md-12">Aadhaar No. (If Alotted) <input type="varchar" class="adhar_no" size="16" oninput="convertuppercase1('pan_state');" required></div>
+    <div class="col-md-12">The enrollment ID of Aadhaar application form(If AADHAAR number is not allotted)
+        <input type="varchar" class="id" size="16" oninput="convertuppercase1('pan_state');" required>
+    </div>
+    <div class="row">
+        <div class="col-md-12">Name as per AADHAAR letter or card or as per the Enrolment ID of Aadhaar application form</div><br>
+        <div class="col-md-3"><input type="text" class="name" oninput="convertuppercase1('pan_state');" required></div>
+        <div class="col-md-3"><input type="text" class="name"></div>
+        <div class="col-md-3"><input type="text" class="name"></div>
+    </div><br>
+<!--13 Source Of Income-->
+<div class="row">
+    <div class="col-md-6" >13. Source Of Income
+<select class="status" oninput="convertuppercase1('pan_state');" required>
+    <option value="">Select </option>
+    <option value="1">Salary</option>
+    <option value="2">Income from Business/Profession</option>
+    <option value="3">Income From House Property</option>
+    </select>
+    </div>
+   
+
+<div class="col-md-4">
+    Business/Profession Code <input type="integer" class="code" size="4" oninput="convertuppercase1('pan_state');" required>
+</div>
+</div>
+</div>
+<br> 
+
+<div class="row">
+        <div class="col-md-6">For Code: Refer Instructions
+        <select class="status" oninput="convertuppercase1('pan_state');" required>
+        <option value="">Select </option>
+        <option value="1">Capital Gains</option>
+        <option value="2">Income From Other Sources</option>
+        <option value="3">No Income</option>
+        </select>
+        </div>
+       </div>
+       <br>
+<!-- 14 Representative Assessee (RA)-->
+<div class="row">
+    <div class="col-md-12">14. Representative Assessee (RA)</div><br>
+    <div class="row" width="100%">
+
+            <div class="col-sm-3">
+
+            Full Name </font><font style="font-size:20px; color:#B41200;"><b>*</b></font>
+         <select class="feedback-select1" name="pan_title" id="pan_title" style="width:117px;" required>
+         <option value="">Select Title</option>
+             <option value="1">Shri</option>
+             <option value="2">Smt.</option>
+           <option value="3">Kumari</option>
+           <option value="4">M/s</option>
+         </select>
+             </div>
+             <div class="col-sm-3">
+            <input type="text" class="feedback-input2" name="pan_lastname" id="pan_lastname" placeholder="LastName/Surname" maxlength="25" onblur="nameCard('pan_lastname');" oninput="convertuppercase1('pan_lasttname');"  title="Only Characters" required/>
+          </div>
+          <div class="col-sm-3">
+                <input type="text" class="feedback-input2" name="pan_firstname" id="pan_firstname" maxlength="25" placeholder="First Name"  oninput="convertuppercase1('pan_firstname');" title="Only Characters" onblur="nameCard('pan_firstname')" />
+          </div>
+          <div class="col-sm-3">
+                <input type="text" class="feedback-input2" name="pan_middlename" id="pan_middlename" placeholder="Middle Name" maxlength="25" onblur="nameCard('pan_middlename')" oninput="convertuppercase1('pan_middlename');"  title="Only Characters"/>
+        </div>
+        </div>
+</div>
+<!--   Residence Address Start -->			
+<div id="residence_communication" >
+	<div class="row">
+	<div class="col-sm-12">
+	<p style="color:#B41200"><font size="3">Residence Address</font>
+	</div>
+	</div>	
+	<div class="row">
+	<div class="col-sm-3">
+	House No/ Building/ Village
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_addressline1" maxlength="40" value="" id="pan_addressline1" class="feedback-input2" placeholder="First Line" oninput="convertuppercase1('pan_addressline1');" title="Enter your Flat/Door/Block Number"/>
+	</div>
+	<div class="col-sm-3">
+	Area/ Road/ Street/ P.O.
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_addressline2" maxlength="40" value="" id="pan_addressline2" class="feedback-input2" placeholder="Second Line" oninput="convertuppercase1('pan_addressline2');"/>
+	</div>	
+	</div>
+		
+	<div class="row">
+	<div class="col-sm-3">
+	City/ Town/ District <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_cityname" size="25%" maxlength="25" value="" id="pan_cityname" class="feedback-input2" pattern=".[A-Za-z\s]{2,}" placeholder="City" oninput="convertuppercase1('pan_cityname');" required/>
+	</div>
+	<div class="col-sm-3">
+	State/ Union Territory <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+	</div>
+	<div class="col-sm-3">
+	<input name="pan_state" class="feedback-input2" maxlength="25" value="" id="pan_state" placeholder="State/Union Territory" oninput="convertuppercase1('pan_state');" required>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-sm-3">
+	Pincode/ Zip code <font style="font-size:20px; color:#B41200;"><b> *</b></font>
+	</div>
+	<div class="col-sm-3">
+	<input type="text" name="pan_pincode" maxlength="7" value="" pattern="[0-9]+" id="pan_pincode" class="feedback-input2" placeholder="PinCode"  required/>
+	</div>
+	<div class="col-sm-3">
+	Country <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+	</div>
+	<div class="col-sm-3">
+        <div class="col-sm-3">
+            <input type="country" class="country" name="Country" placeholder="Country" oninput="convertuppercase1('pan_state');" required>
+        </div>
+	</div>
+	</div>
+	</div>
+
+<!--   Residence Address End -->		
+
+<!-- Office Address Start -->			
+<div id="residence_communication" >
+        <div class="row">
+        <div class="col-sm-12">
+        <p style="color:#B41200"><font size="3">Office Address</font>
+        </div>
+        </div>	
+        <div class="row">
+        <div class="col-sm-3">
+        House No/ Building/ Village
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_addressline1" maxlength="40" value="" id="pan_addressline1" class="feedback-input2" placeholder="First Line" oninput="convertuppercase1('pan_addressline1');" title="Enter your Flat/Door/Block Number"/>
+        </div>
+        <div class="col-sm-3">
+        Area/ Road/ Street/ P.O.
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_addressline2" maxlength="40" value="" id="pan_addressline2" class="feedback-input2" placeholder="Second Line" oninput="convertuppercase1('pan_addressline2');"/>
+        </div>	
+        </div>
+            
+        <div class="row">
+        <div class="col-sm-3">
+        City/ Town/ District <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_cityname" size="25%" maxlength="25" value="" id="pan_cityname" class="feedback-input2" pattern=".[A-Za-z\s]{2,}" placeholder="City" oninput="convertuppercase1('pan_cityname');" required/>
+        </div>
+        <div class="col-sm-3">
+        State/ Union Territory <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input name="pan_state" class="feedback-input2" maxlength="25" value="" id="pan_state" placeholder="State/Union Territory" oninput="convertuppercase1('pan_state');" required>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-3">
+        Pincode/ Zip code <font style="font-size:20px; color:#B41200;"><b> *</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input type="text" name="pan_pincode" maxlength="7" value="" pattern="[0-9]+" id="pan_pincode" class="feedback-input2" placeholder="PinCode"  required/>
+        </div>
+        <div class="col-sm-3">
+        Country <font style="font-size:20px; color:#B41200;"><b>*</b></font>
+        </div>
+        <div class="col-sm-3">
+        <input type="country" class="country" name="Country" placeholder="Country" oninput="convertuppercase1('pan_state');" required>
+        </div>
+        </div>
+        </div><br>
+        <div class="centered">
+            <div class="col-md-6">
+            <button class="submit">SUBMIT</button>
+        </div>
+        </div>
+</div><!--end of main div-->
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
